@@ -5,9 +5,9 @@ import { Fragment } from "react";
 export default function ProductDetailPage(props) {
     const { loadedProduct } = props;
 
-    // if (!loadedProduct) {
-    //     return <p>Loading...</p>
-    // }
+    if (!loadedProduct) {
+        return <p>Loading...</p>
+    }
 
 
     return <Fragment>
